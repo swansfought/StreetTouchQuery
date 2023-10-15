@@ -1,0 +1,371 @@
+
+/*全局字体*/
+/*QLabel,
+QTextEdit,
+QTextBrowser,
+QLineEdit,
+QPushButton,
+QTabWidget{ color:rgb(40,40,40);}*/
+
+
+/*系统背景图*/
+#stackedWidget{ background-image:url(":/img/style1/background-1.jpg");}
+
+/*系统标题*/
+#lab_sysTitle,
+#lab_sysTitle_2{
+    font-size: 55pt;
+    font-weight: bold;
+    font-family : "楷体";
+}
+#lab_title{
+    font-size: 50pt;
+    font-weight: bold;
+    font-family : "华文琥珀";
+}
+
+/*主界面按钮*/
+#btn_education,
+#btn_intro,
+#btn_law,
+#btn_medical,
+#btn_society,
+#btn_work{
+    font-size: 35pt;
+    font-weight: bold;
+    font-family: "楷体";
+    border-radius:10px;
+    border:2px solid rgb(200,224,136);
+    background-image:url(":/img/style1/background-2.jpg");
+}
+#btn_education:hover,
+#btn_intro:hover,
+#btn_law:hover,
+#btn_medical:hover,
+#btn_society:hover,
+#btn_work:hover{
+    border:2px solid rgb(190,204,116);
+}
+
+/*社会救助子按钮*/
+#btn_31,
+#btn_32,
+#btn_33,
+#btn_34,
+#btn_35,
+#btn_36,
+#btn_37,
+#btn_38,
+#btn_39{
+    font-size:20pt;
+    font-family: "黑体";
+    font-weight: bold;
+    border-radius:12px;
+    border:1px solid rgb(200, 200, 200);
+    background-image:url(":/img/style1/background-6.jpg");
+}
+#btn_31:hover,
+#btn_32:hover,
+#btn_33:hover,
+#btn_34:hover,
+#btn_35:hover,
+#btn_36:hover,
+#btn_37:hover,
+#btn_38:hover,
+#btn_39:hover{
+    border:1px solid rgb(160, 160, 160);
+}
+
+/*登录模块*/
+#widget_login{
+    background-color:rgba(245,249,222,0.9);
+    border-radius:8px;
+    border:2px solid rgb(201,217,150);
+}
+
+#cBox_loginAccount,
+#lineEdit_pwd{
+    font-size: 15pt;
+    font-family: "微软雅黑";
+    border: 1px solid #A0A0A0;
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-right: 32px;
+    background-color: #F2F2F2;
+    color: #3c3c3c;
+    selection-background-color: #A0A0A0;
+    selection-color: #F2F2F2;
+}
+#cBox_sysStyle{
+    font-size: 11pt;
+    font-family: "微软雅黑";
+    border: 1px solid #A0A0A0;
+    border-radius: 6px;
+    padding-left: 4px;
+    background-color: #F2F2F2;
+    color: #3c3c3c;
+    selection-background-color: #A0A0A0;
+    selection-color: #F2F2F2;
+}
+#lineEdit_pwd{ font-size: 12pt;}
+#cBox_loginAccount:hover,
+#cBox_sysStyle:hover,
+#lineEdit_pwd:hover { /* 鼠标悬浮在QLineEdit时的状态 */
+    border: 1px solid #42681b;
+    border-radius: 4px;
+    background-color: #F2F2F2;
+    color: #3c3c3c;
+}
+
+/*管理模块-按钮样式*/
+#btn_loadDefaultCfg,
+#btn_loadStyle1,
+#btn_loadStyle2,
+#btn_newSysIcon,
+#btn_newPwdClear,
+#btn_sureNewPwd,
+#btn_exitLogin,
+#btn_sureLogin{
+    font-size:12pt;
+    font-family: "微软雅黑";
+    border-radius:10px;
+    background-color:rgba(240,240,240,0.7);
+    border:1px solid rgb(200, 200, 200);
+}
+#btn_loadDefaultCfg:hover,
+#btn_loadStyle1:hover,
+#btn_loadStyle2:hover,
+#btn_newSysIcon:hover,
+#btn_newPwdClear:hover,
+#btn_sureNewPwd:hover,
+#btn_exitLogin:hover,
+#btn_sureLogin:hover{
+    border:1px solid rgb(160, 160, 160);
+}
+
+#lab_pwdTip{
+    font-size:11pt;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    color:#ff2d51;
+}
+
+/*管理模块*/
+QTabWidget{
+    font-size:12pt;
+    font-family:"黑体";
+    font-weight: bold;
+}
+QTabWidget::pane {
+    border-top:1px solid rgb(200, 200, 200);/*201,217,150*/
+/*    border:1px solid rgb(40,40,40);*/
+    background:  transparent;
+}
+QTabWidget::tab-bar {  /*整个最上面的tab栏*/
+    alignment: left;
+    border-top:2px solid rgb(244, 249, 220);
+}
+QTabBar::tab:selected, QTabBar::tab:hover{
+    color:#305601;
+}
+
+/*内容展示模块*/
+#stackedWidget_context,
+#context_show{
+    background-color:rgba(245,249,222,0.9);
+    border-radius:8px;
+    border:3px solid rgb(201,217,150);
+}
+
+/*内容编辑模块*/
+#tree_title{
+    font-size:14pt;
+    font-family: "黑体";
+    background-color:rgba(245,249,222,0.9);
+    border-radius:8px;
+    border-top-left-radius:0px;
+    border-top-right-radius:4px;
+    border:2px solid rgb(201,217,150);
+}
+#tree_title::item{
+    margin:8px;
+/*    background: #5B677A;*/
+    background-clip: margin;
+}
+#widget_ss_tool{
+    background-color:rgba(245,249,222,0.9);
+    border-radius:8px;
+    border:3px solid rgb(201,217,150);
+}
+
+#context_title_edit{
+    font-size:12pt;
+    font-family: "微软雅黑";
+    background-color:rgba(245,249,222,0);
+    border:none;
+    border-bottom:2px solid rgb(201,217,150);
+    selection-background-color: #9f9fa0;
+    selection-color: #F2F2F2;
+}
+#context_edit{
+    font-size:12pt;
+    font-family: "微软雅黑";
+    background-color:rgba(245,249,222,0.5);
+    border:none;
+    border-top:2px solid rgb(201,217,150);
+    border-bottom:2px solid rgb(201,217,150);
+    selection-background-color: #9f9fa0;
+    selection-color: #F2F2F2;
+}
+
+#widget_editTool{
+    font-family: "微软雅黑";
+    border-radius:8px;
+    border:2px solid rgb(201,217,150);
+    background-color:rgba(245,249,222,0.9);
+}
+
+#btn_save,
+#btn_restore,
+#btn_cut,
+#btn_paste,
+#btn_selectAll,
+#btn_undo,
+#btn_redo,
+#btn_copy,
+#btn_open,
+#btn_clear,
+#btn_fontBold,
+#btn_fontUnder,
+#btn_fontItalic,
+#btn_fontUnder,
+#btn_fontCenter,
+#btn_fontLeft,
+#btn_fontRight,
+#btn_fontJustify,
+#btn_allLine,
+#btn_currLine,
+#btn_selectImageShow,
+#btn_fontColor,
+#btn_exitEdit{
+    font-family: "微软雅黑";
+   border:none;
+   border-radius:5px;
+   background-color:rgba(245, 249, 221,0.5);
+}
+#btn_allLine,
+#btn_currLine{border:1px solid rgb(190, 190, 190);}
+
+#btn_save:hover,
+#btn_restore:hover,
+#btn_cut:hover,
+#btn_paste:hover,
+#btn_selectAll:hover,
+#btn_undo:hover,
+#btn_redo:hover,
+#btn_copy:hover,
+#btn_open:hover,
+#btn_clear:hover,
+#btn_fontBold:hover,
+#btn_fontUnder:hover,
+#btn_fontItalic:hover,
+#btn_fontCenter:hover,
+#btn_fontLeft:hover,
+#btn_fontRight:hover,
+#btn_fontJustify:hover,
+#btn_allLine:hover,
+#btn_currLine:hover,
+#btn_selectImageShow:hover,
+#btn_fontColor:hover,
+#btn_exitEdit:hover{
+    border:none;
+    border-radius:5px;
+    background-color:rgba(219, 231, 181,0.5);
+}
+#btn_allLine:hover,
+#btn_currLine:hover{
+    border:1px solid rgb(190, 190, 190);
+    border-radius:5px;
+    background-color:rgba(219, 231, 181,0.5);
+}
+
+#btn_fontBold:checked,
+#btn_fontUnder:checked,
+#btn_fontItalic:checked,
+#btn_fontCenter:checked,
+#btn_fontLeft:checked,
+#btn_fontRight:checked,
+#btn_fontJustify:checked{
+    border:1px solid rgb(190, 190, 190);
+    border-radius:5px;
+    background-color:rgb(208, 212, 219);
+}
+
+/*参数设置模块*/
+#scrollArea,
+#widget_cfg{
+    font-family: "微软雅黑";
+    background-color:rgba(245,249,222,0.9);
+    border-radius:8px;
+    border:2px solid rgb(201,217,150);
+}
+
+#spinBox_fontSize,
+#cBox_editMode,
+#fontComboBox,
+#cBox_showMode,
+#cBox_lineSpace{
+    font-family: "微软雅黑";
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 4px;
+    padding-left: 4px;
+    background-color: #F2F2F2;
+    color: #3c3c3c;
+    selection-background-color: #A0A0A0; /* 选中文本的背景颜色 */
+    selection-color: #F2F2F2; /* 选中文本的颜色 */
+}
+#spinBox_fontSize:hover,
+#cBox_editMode:hover,
+#fontComboBox:hover,
+#cBox_showMode:hover,
+#cBox_lineSpace:hover{ border:1px solid rgb(160, 160, 160);}
+
+QScrollBar:vertical{
+    width:8px;
+    background:rgba(0,0,0,10%);
+    margin:0px,0px,0px,0px;
+    padding-top:9px;
+    padding-bottom:9px;
+}
+QScrollBar::handle:vertical{
+    width:8px;
+    background:rgba(140,140,140,100%);
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover{
+    width:8px;
+    background:rgba(0,0,0,50%)
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical{
+    height:9px;width:8px;
+    subcontrol-position:bottom;
+}
+QScrollBar::sub-line:vertical{
+    height:9px;width:8px;
+    subcontrol-position:top;
+}
+QScrollBar::add-line:vertical:hover{
+    height:9px;width:8px;
+    subcontrol-position:bottom;
+}
+QScrollBar::sub-line:vertical:hover{
+    subcontrol-position:top;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}
+
